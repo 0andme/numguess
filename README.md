@@ -16,11 +16,10 @@ $ python numguess.py
 
 ## Features
 
-- Set answer
-- Get user name
+- Set answer (randomly 1 to 100)
+- Get user name 
 - Get user's guess
-- Campare answer with user's guess
-- Give little surprise
+- Campare answer with user's guess 
 
 ## References
 
