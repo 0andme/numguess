@@ -1,6 +1,6 @@
 # Don't
 
-animals=['cat','dog']
+animals=['cat','dog','bird']
 
 
 # Do (Trailing comma)
@@ -8,4 +8,5 @@ animals=['cat','dog']
 menus=[
     'rice',
     'ramen',
+    'cake'
     ]
