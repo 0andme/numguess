@@ -1,4 +1,11 @@
-# print user name
+# Don't
 
-username="young young"
-print("hello, ",username)
+animals=['cat','dog']
+
+
+# Do (Trailing comma)
+
+menus=[
+    'rice',
+    'ramen',
+    ]
