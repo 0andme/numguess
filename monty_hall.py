@@ -9,4 +9,4 @@ change_win=0
 
 
 for i in range(repeat_num):
-    
+    shuffle(doors)
