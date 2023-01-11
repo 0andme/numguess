@@ -56,6 +56,8 @@ def game_end(user_name,res):
     else:
         print(f"{user_chance}번의 기회가 있었지만 정답{answer}를 맞추지 못했습니다")
 
+
+#  게임 실행
 user_name=game_open()
 res=game_start(answer)
 game_end(user_name,res)
