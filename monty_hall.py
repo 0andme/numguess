@@ -16,3 +16,5 @@ for i in range(repeat_num):
     # 사용자가 문을 변경
     else:
         change_win+=1
+
+print(f"반복 횟수 : {repeat_num} / 문 변경시 이길 확률 : {change_win/repeat_num*100}/ 문 미 변경시 이길 확률: {no_change_win/repeat_num*100}")
