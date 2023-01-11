@@ -13,3 +13,8 @@ for i in range(repeat_num):
     user_choice=choice(doors)
     if(user_choice==1):
         no_change_win+=1
+    # 사용자가 문을 변경
+    user_choice=choice(doors)
+    if(user_choice==1):
+        change_win+=1
+    
