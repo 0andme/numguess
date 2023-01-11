@@ -1,6 +1,6 @@
 from random import shuffle,choice
 
-repeat_num=5
+repeat_num=10000
 doors=[0,0,1]
 user_choice=0
 no_change_win=0
@@ -16,4 +16,3 @@ for i in range(repeat_num):
     # 사용자가 문을 변경
     else:
         change_win+=1
-    
