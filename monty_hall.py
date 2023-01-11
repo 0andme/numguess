@@ -3,9 +3,6 @@ from random import shuffle,choice
 repeat_num=10000
 doors=[0,0,1]
 user_choice=0
-no_change_win=0
-change_win=0
-
 result={
     'no_change_win':0,
     'change_win':0,
