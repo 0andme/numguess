@@ -2,6 +2,10 @@
 from random import randint
 from time import sleep
 
+
+# 게임 기회 지정
+user_chance=10
+
 # 랜덤값 생성
 answer=randint(1,100)
 print(f'{answer}')
