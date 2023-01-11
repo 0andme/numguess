@@ -6,6 +6,9 @@ from time import sleep
 # 게임 기회 지정
 user_chance=10
 
+# 게임 스코어 저장 변수 지정
+user_score=0
+
 # 랜덤값 생성
 answer=randint(1,100)
 print(f'{answer}')
@@ -35,7 +38,7 @@ def game_start(answer):
         # 사용자로부터 예측값 입력 받기
         user_guess=int(input(f'{user_chance-i}번째 기회: 1부터 100사이의 정답을 추측해주세요 >'))
         if(user_guess==answer):
-            return True 
+            return user_chance- i 
         elif user_guess>answer:
             print(f'{user_guess}는 정답보다 큰 수입니다')
         else: 
@@ -49,7 +52,7 @@ def game_end(user_name,res):
     게임결과에 따른 메시지 출력
     """
     if res:
-        print(f'{user_name}님, 축하드립니다 정답 {answer}를 맞추셨습니다')
+        print(f'{user_name}님, 축하드립니다 정답 {answer}를 맞추셨습니다. 점수는 {res}입니다')
     else:
         print(f"{user_chance}번의 기회가 있었지만 정답{answer}를 맞추지 못했습니다")
 
