@@ -5,3 +5,8 @@ doors=[0,0,1]
 user_choice=0
 no_chane_win=0
 change_win=0
+
+
+
+for i in range(repeat_num):
+    
